@@ -1,0 +1,15 @@
+lc_solver; gurobi
+lc_model; direct_restricting_frequencies
+lc_write_lp_file; true
+lpool_costs_fixed; 0.14
+lpool_costs_length; 0.63
+lpool_costs_edges; 0
+lpool_costs_vehicles; 0
+console_log_level; DEBUG
+od_remove_uncovered_demand_points; false
+#lpool_model; terminal-to-terminal
+#lpool_restrict_terminals; true
+lc_budget; 2000
+#lc_direct_optimize_costs; true
+#lc_mult_relation; 0.90
+lc_maximal_frequency; 20

@@ -1,0 +1,145 @@
+
+Gurobi 10.0.2 (linux64) logging started Thu 18 Jul 2024 11:39:02 PM -05
+
+Set parameter LogFile to value "gurobi.log"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Academic license 2446675 - for non-commercial use only - registered to mi___@epn.edu.ec
+Optimize a model with 2720 rows, 1215 columns and 8483 nonzeros
+Model fingerprint: 0x8cc1254a
+Variable types: 0 continuous, 1215 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+03]
+Found heuristic solution: objective 36348.000000
+Presolve removed 2720 rows and 1215 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 36407 36348 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.640700000000e+04, best bound 3.640700000000e+04, gap 0.0000%
+
+Gurobi 10.0.2 (linux64, gurobi_cl) logging started Thu Jul 18 23:40:22 2024
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2446675
+Set parameter LogFile to value "gurobi.log"
+Academic license 2446675 - for non-commercial use only - registered to mi___@epn.edu.ec
+Using license file /home/fabian/gurobi.lic
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file direct-model.lp
+Reading time = 0.01 seconds
+: 2720 rows, 1215 columns, 8483 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Academic license 2446675 - for non-commercial use only - registered to mi___@epn.edu.ec
+Optimize a model with 2720 rows, 1215 columns and 8483 nonzeros
+Model fingerprint: 0x8cc1254a
+Variable types: 0 continuous, 1215 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+03]
+Found heuristic solution: objective 36348.000000
+Presolve removed 2720 rows and 1215 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 36407 36348 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.640700000000e+04, best bound 3.640700000000e+04, gap 0.0000%
+
+Gurobi 10.0.2 (linux64, gurobi_cl) logging started Thu Jul 18 23:41:27 2024
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2446675
+Set parameter LogFile to value "gurobi.log"
+Academic license 2446675 - for non-commercial use only - registered to mi___@epn.edu.ec
+Using license file /home/fabian/gurobi.lic
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file direct-model.lp
+Reading time = 0.00 seconds
+: 2720 rows, 1215 columns, 8483 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Academic license 2446675 - for non-commercial use only - registered to mi___@epn.edu.ec
+Optimize a model with 2720 rows, 1215 columns and 8483 nonzeros
+Model fingerprint: 0x8cc1254a
+Variable types: 0 continuous, 1215 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+03]
+Found heuristic solution: objective 36348.000000
+Presolve removed 2720 rows and 1215 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 36407 36348 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.640700000000e+04, best bound 3.640700000000e+04, gap 0.0000%
+
+Wrote result file 'mysol.sol'
+
+
+Gurobi 10.0.2 (linux64) logging started Thu 18 Jul 2024 11:42:12 PM -05
+
+Set parameter LogFile to value "gurobi.log"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Academic license 2446675 - for non-commercial use only - registered to mi___@epn.edu.ec
+Optimize a model with 2720 rows, 1215 columns and 8483 nonzeros
+Model fingerprint: 0x2675ae90
+Variable types: 0 continuous, 1215 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+03]
+Found heuristic solution: objective 36348.000000
+Presolve removed 2720 rows and 1215 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 36407 36348 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.640700000000e+04, best bound 3.640700000000e+04, gap 0.0000%

@@ -1,0 +1,16 @@
+lc_average_distance; 273.78428
+lc_average_edges; 22.70588
+lc_average_length; 8228.64706
+lc_cost; 1964.80886
+lc_feasible; True
+lc_min_distance; 60.9938
+lc_min_edges; 3
+lc_min_length; 1384
+lc_obj_game; 138689
+lc_prop_directed_lines; 51
+lc_prop_freq_max; 19
+lc_time_average_without_transfers; 122.50076
+lc_uncapacitated_direct_travelers; 92127
+lc_var_distance; 45728.46365
+lc_var_edges; 431.26644
+lc_var_length; 52427159.91465

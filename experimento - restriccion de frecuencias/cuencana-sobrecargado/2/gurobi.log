@@ -1,0 +1,55 @@
+
+Gurobi 10.0.2 (linux64) logging started Sun 21 Jul 2024 05:56:12 AM -05
+
+Set parameter LogFile to value "gurobi.log"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Academic license 2446675 - for non-commercial use only - registered to mi___@epn.edu.ec
+Optimize a model with 13728 rows, 12851 columns and 746898 nonzeros
+Model fingerprint: 0x52b3d4ea
+Variable types: 0 continuous, 12851 integer (8304 binary)
+Coefficient statistics:
+  Matrix range     [5e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+04]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 4206 rows and 2316 columns
+Presolve time: 1.04s
+Presolved: 9522 rows, 10535 columns, 135290 nonzeros
+Variable types: 0 continuous, 10535 integer (7473 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+Concurrent spin time: 0.00s
+
+Solved with primal simplex
+
+Root relaxation: objective 5.810000e+05, 10438 iterations, 0.74 seconds (0.75 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 581000.000    0   51          - 581000.000      -     -    3s
+     0     0 581000.000    0  396          - 581000.000      -     -    4s
+H    0     0                    581000.00000 581000.000  0.00%     -    4s
+     0     0 581000.000    0  396 581000.000 581000.000  0.00%     -    4s
+
+Cutting planes:
+  Gomory: 3
+  Implied bound: 16
+  MIR: 3
+  StrongCG: 1
+  Flow cover: 1
+  GUB cover: 1
+  RLT: 2
+
+Explored 1 nodes (43174 simplex iterations) in 4.57 seconds (6.39 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 581000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.810000000000e+05, best bound 5.810000000000e+05, gap 0.0000%

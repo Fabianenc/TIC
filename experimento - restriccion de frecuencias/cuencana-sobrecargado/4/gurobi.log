@@ -1,0 +1,56 @@
+
+Gurobi 10.0.2 (linux64) logging started Sun 21 Jul 2024 06:02:39 AM -05
+
+Set parameter LogFile to value "gurobi.log"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Academic license 2446675 - for non-commercial use only - registered to mi___@epn.edu.ec
+Optimize a model with 16968 rows, 16151 columns and 1033098 nonzeros
+Model fingerprint: 0x25d00408
+Variable types: 0 continuous, 16151 integer (11604 binary)
+Coefficient statistics:
+  Matrix range     [5e-01, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+04]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 4205 rows and 2316 columns
+Presolve time: 1.36s
+Presolved: 12763 rows, 13835 columns, 188601 nonzeros
+Variable types: 0 continuous, 13835 integer (10773 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+Concurrent spin time: 0.01s
+
+Solved with primal simplex
+
+Root relaxation: objective 5.810000e+05, 15893 iterations, 1.16 seconds (1.32 work units)
+Total elapsed time = 5.12s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 581000.000    0   77          - 581000.000      -     -    5s
+     0     0 581000.000    0  136          - 581000.000      -     -    6s
+H    0     0                    580990.00000 581000.000  0.00%     -    6s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 4
+  Implied bound: 15
+  MIR: 14
+  StrongCG: 9
+  Flow cover: 3
+  GUB cover: 5
+  RLT: 1
+
+Explored 1 nodes (49376 simplex iterations) in 6.83 seconds (9.85 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 580990 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.809900000000e+05, best bound 5.810000000000e+05, gap 0.0017%

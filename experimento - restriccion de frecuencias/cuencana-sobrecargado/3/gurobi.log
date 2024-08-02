@@ -1,0 +1,59 @@
+
+Gurobi 10.0.2 (linux64) logging started Sun 21 Jul 2024 05:58:58 AM -05
+
+Set parameter LogFile to value "gurobi.log"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Academic license 2446675 - for non-commercial use only - registered to mi___@epn.edu.ec
+Optimize a model with 15348 rows, 14501 columns and 889998 nonzeros
+Model fingerprint: 0x4a980e8f
+Variable types: 0 continuous, 14501 integer (9954 binary)
+Coefficient statistics:
+  Matrix range     [5e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+04]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 4205 rows and 2316 columns
+Presolve time: 1.10s
+Presolved: 11143 rows, 12185 columns, 161436 nonzeros
+Variable types: 0 continuous, 12185 integer (9123 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+Concurrent spin time: 0.00s
+
+Solved with primal simplex
+
+Root relaxation: objective 5.810000e+05, 12948 iterations, 0.56 seconds (0.62 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 581000.000    0   77          - 581000.000      -     -    2s
+     0     0 581000.000    0   47          - 581000.000      -     -    4s
+     0     0 581000.000    0   45          - 581000.000      -     -    4s
+H    0     0                    581000.00000 581000.000  0.00%     -    4s
+     0     0 581000.000    0   16 581000.000 581000.000  0.00%     -    4s
+
+Cutting planes:
+  Gomory: 4
+  Lift-and-project: 1
+  Cover: 3
+  Implied bound: 141
+  MIR: 19
+  StrongCG: 7
+  Flow cover: 25
+  GUB cover: 2
+  RLT: 4
+  Relax-and-lift: 3
+
+Explored 1 nodes (29997 simplex iterations) in 4.57 seconds (5.58 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 581000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.810000000000e+05, best bound 5.810000000000e+05, gap 0.0000%
